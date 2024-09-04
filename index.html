@@ -100,20 +100,13 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              Automatic design of 3D tooth model plays an important role in dental digitization.
-              However, diffusion models in multivew editing rely on score distillation sampling (SDS) to enforce 3D
-              awareness, which cannot model the joint image distribution of multiple views, leading to a drawback in 3D
-              consistency.
-              In addition to that, the collision avoidance term in NeRF fine-tuning often yields wield results owing to
-              the lack of shape prior with regard to human tooth.
-              Motivated by the energy-based distribution modeling and diffusion model-based shape denoising, we improve
-              the iterative dataset update (IDU) as follows:
-              1) A multiview score distillation function (MSDS) is derived in the multiview editing stage by
-              incorporating the inter-view coherence compatible function;
-              2) The defective tooth is renovated by adding shape prior distilled by a diffusion model to increase the
-              realism in the NeRF fine-tuning stage.
-              Experimental results on two tooth design datasets show that our approach improves the multiview
-              consistency and realism of the generated tooth by a margin when it is compared with prevailing approaches.
+              The automatic design of a 3D tooth model plays an important role in the process of dental digitization.
+              However, diffusion models in multiview editing depend on score distillation sampling (SDS) to enforce 3D awareness, 
+              which cannot model the joint image distribution of multiple views, leading to a drawback in 3D consistency.
+              In addition, the collision avoidance term in neural radiance field (NeRF) fine-tuning often yields weird results due to the lack of shape prior concerning to human tooth.
+              Motivated by the energy-based distribution modeling and diffusion model-based shape denoising, we design an approach following the infrastructure of iterative dataset update (IDU), where a multiview score distillation function (MSDS) is formulated during the multiview editing stage by incorporating an inter-view coherence compatible function based on an image-to-image translation and reconstruction loss;
+              Moreover, the defective tooth is renovated by adding shape prior distilled by a diffusion model and encouraging the consistency between this tooth prior and the generated tooth to avoid collision conflict in the NeRF fine-tuning stage.
+              The experimental results on two tooth design datasets indicate that our approach improves the multiview consistency and realism of the generated teeth by a margin when compared with prevailing approaches.
             </p>
           </div>
         </div>
