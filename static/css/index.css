@@ -80,6 +80,17 @@ body {
 
 .author-block {
   display: inline-block;
+  font-size: 20px;
+}
+.author-name-block {
+  display: inline-block;
+  font-size: 18px;
+
+}
+.author-school-block {
+  display: inline-block;
+  font-size: 12px;
+
 }
 
 .publication-banner img {
