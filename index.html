@@ -29,8 +29,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Advanced Dental Digitization: Incorporating Shape Priors and
-              Multiview Coherence in Diffusion Models for Tooth Model Design</h1>
+            <h1 class="title is-1 publication-title">Incorporating Multiview Coherence and Shape Priors in Diffusion Models for Generation of Missing Tooth</h1>
             <div class="is-size-5 publication-authors">
               <div class="author-block" style="display: inline-block; width: 20%; vertical-align: top; margin: 1.66%;">
                 <span class="author-name-block">Yan Tian</span><br>
@@ -125,12 +124,12 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              The automatic design of a 3D tooth model plays an important role in the process of dental digitization.
+              The generation of a missing tooth plays an important role in dental digitization, where visualization results increase patients' confidence in treatment.
 However, diffusion models in multiview editing depend on score distillation sampling (SDS) to enforce 3D awareness, which cannot model the joint image distribution of multiple views, leading to a drawback in 3D consistency.
 In addition, the collision avoidance term in neural radiance field (NeRF) fine-tuning often yields odd results due to the lack of shape prior to human teeth.
 Motivated by energy-based distribution modeling and diffusion model-based shape denoising, we design an approach following the infrastructure of iterative dataset update (IDU), where a multiview score distillation function (MSDS) is formulated during the multiview editing stage by incorporating an interview coherence compatible function based on image-to-image translation and reconstruction loss.
 Moreover, the defective tooth is renovated by adding shape priors distilled by a diffusion model and encouraging the consistency between this tooth prior and the generated tooth to avoid collision conflict in the NeRF fine-tuning stage.
-The experimental results on two tooth design datasets indicate that our approach improves the multiview consistency and realism of the generated teeth by a margin compared with prevailing approaches.
+The experimental results on two tooth generation datasets indicate that our approach improves the multiview consistency and realism of the generated teeth by a margin compared to the prevailing approaches.
             </p>
           </div>
         </div>
